@@ -1,0 +1,13 @@
+{
+  "frontend/src/App.tsx": "Main application component that renders the complete coaching website layout with header, hero, services, about, testimonials, contact form, footer, and toast notifications.",
+  "frontend/src/components/Header.tsx": "Sticky navigation header with logo, desktop/mobile menu, smooth scrolling to sections, and responsive design.",
+  "frontend/src/components/Hero.tsx": "Hero section with background image, compelling headline, value proposition, and call-to-action buttons for starting the coaching journey.",
+  "frontend/src/components/Services.tsx": "Services section displaying four coaching service offerings in a responsive grid with icons, titles, and descriptions.",
+  "frontend/src/components/About.tsx": "About section explaining the coaching approach with growth icon image, methodology description, and list of key coaching principles.",
+  "frontend/src/components/Testimonials.tsx": "Testimonials section showcasing three client success stories with ratings, quotes, and background image for trust-building.",
+  "frontend/src/components/ContactForm.tsx": "Contact form component with name, email, and message fields, frontend validation, backend integration, and success/error toast notifications.",
+  "frontend/src/components/Footer.tsx": "Footer component with branding, copyright, and attribution link to caffeine.ai with proper UTM tracking parameters.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for backend integration including contact form submission mutation and messages query with proper invalidation.",
+  "frontend/src/index.css": "Global styles with warm, earthy OKLCH color system featuring terracotta primary, sage secondary, and peachy accent colors for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration with Inter font family, custom color tokens, border radius, shadows, and animation utilities for the warm professional design system."
+}

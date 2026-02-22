@@ -1,0 +1,22 @@
+{
+  "backend/main.mo": "Motoko actor defining a contact form backend with submitContactForm and getMessages functions, storing ContactMessage records in a list with validation and sorting by email.",
+  "feature_evidence.json": "Feature evidence report documenting six implemented features (hero, services, about, testimonials, contact form, visual theme) with associated files, components, and test IDs.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of all frontend files describing the coaching website's components, hooks, and styling configuration.",
+  "frontend/index.css": "Tailwind CSS base styles defining CSS custom properties for light and dark themes using OKLCH color space with warm, professional color palette.",
+  "frontend/index.html": "HTML entry point for the Coach Connect application with root div and module script reference to main.tsx.",
+  "frontend/src/App.tsx": "Root React component composing the full coaching website layout with Header, Hero, Services, About, Testimonials, ContactForm, Footer, and Toaster components.",
+  "frontend/src/components/About.tsx": "About section component displaying coaching approach with decorative image, methodology description, and checklist of six coaching principles.",
+  "frontend/src/components/ContactForm.tsx": "Contact form component with name, email, and message inputs, frontend validation, backend mutation integration via useSubmitContactForm hook, and toast notifications for success/error states.",
+  "frontend/src/components/Footer.tsx": "Footer component displaying Coach Connect branding, copyright year, and attribution link to caffeine.ai with UTM tracking parameters.",
+  "frontend/src/components/Header.tsx": "Sticky header with logo, responsive desktop/mobile navigation menu, smooth scroll functionality to page sections, and mobile menu toggle.",
+  "frontend/src/components/Hero.tsx": "Hero section component with background image, headline, call-to-action buttons, and smooth scroll navigation to contact and services sections.",
+  "frontend/src/components/Services.tsx": "Services section displaying four coaching service cards (Personal Development, Career Coaching, Relationship Coaching, Life Balance) with icons and descriptions in a responsive grid.",
+  "frontend/src/components/Testimonials.tsx": "Testimonials section showing three client success stories with ratings, quotes, names, and roles in a card-based layout with background image.",
+  "frontend/src/hooks/useActor.ts": "React hook that creates and manages an ICP actor instance based on Internet Identity authentication state, invalidating dependent queries when the actor changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login/logout flow, identity state, and AuthClient lifecycle with delegation validation.",
+  "frontend/src/hooks/useQueries.ts": "React Query hooks for submitting contact form data and fetching messages from the backend actor, with automatic cache invalidation.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom OKLCH color variables defining a warm terracotta and earthy color scheme for both light and dark modes.",
+  "frontend/src/main.tsx": "Application entry point that sets up React Query and Internet Identity providers, then renders the root App component.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the theme with custom OKLCH colors, Inter font family, container settings, border radius variables, and animation keyframes.",
+  "project_state.json": "Project state file for \"Coach Connect\", a professional coaching business website with hero section, services showcase, about section, contact form, testimonials, and warm professional design theme. All six initial features are implemented with three pending feature requests for services showcase, approach display, and client connection."
+}

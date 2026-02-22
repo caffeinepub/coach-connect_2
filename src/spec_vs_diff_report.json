@@ -1,0 +1,62 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-02-19T05:46:48.769Z",
+  "summary": "The implementation successfully delivers all requested requirements for the professional coaching business website. The hero, services, about, testimonials, and contact form sections are all implemented with appropriate content and functionality. The backend properly handles contact form submissions with validation and storage. The warm, professional visual theme is consistently applied using terracotta, sage, and peachy tones throughout the design. All acceptance criteria appear to be met based on the diff evidence.",
+  "missing_requirements": [],
+  "hallucinated_features": [
+    {
+      "description": "Navigation header with logo and smooth scrolling menu",
+      "reason": "Header.tsx implements a sticky navigation header with branding and menu links, which was not explicitly requested in the BuildRequest",
+      "evidence": [
+        "frontend/src/components/Header.tsx"
+      ]
+    },
+    {
+      "description": "Footer component with branding and attribution",
+      "reason": "Footer.tsx creates a footer section with copyright and caffeine.ai attribution, which was not part of the original requirements",
+      "evidence": [
+        "frontend/src/components/Footer.tsx"
+      ]
+    },
+    {
+      "description": "Internet Identity authentication integration",
+      "reason": "useInternetIdentity.ts and useActor.ts implement authentication and identity management features, which explicitly contradict the non-goal 'User authentication or client portal'",
+      "evidence": [
+        "frontend/src/hooks/useInternetIdentity.ts",
+        "frontend/src/hooks/useActor.ts"
+      ]
+    },
+    {
+      "description": "Messages retrieval query functionality",
+      "reason": "useQueries.ts includes a useGetMessages hook and backend main.mo includes a getMessages query function, suggesting an admin/portal feature for viewing submitted messages, which was not requested and contradicts the 'client portal' non-goal",
+      "evidence": [
+        "frontend/src/hooks/useQueries.ts",
+        "backend/main.mo"
+      ]
+    }
+  ],
+  "confidence": 0.85,
+  "changed_files": [
+    "all_files_summary.json",
+    "backend/main.mo",
+    "frontend-file-summaries.txt",
+    "frontend/index.css",
+    "frontend/index.html",
+    "frontend/src/App.tsx",
+    "frontend/src/components/About.tsx",
+    "frontend/src/components/ContactForm.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/Header.tsx",
+    "frontend/src/components/Hero.tsx",
+    "frontend/src/components/Services.tsx",
+    "frontend/src/components/Testimonials.tsx",
+    "frontend/src/hooks/useActor.ts",
+    "frontend/src/hooks/useInternetIdentity.ts",
+    "frontend/src/hooks/useQueries.ts",
+    "frontend/src/index.css",
+    "frontend/src/main.tsx",
+    "frontend/tailwind.config.js",
+    "project_state.json"
+  ]
+}

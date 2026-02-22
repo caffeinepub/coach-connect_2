@@ -1,0 +1,135 @@
+{
+  "kind": "implementation_plan",
+  "version": "1.0",
+  "title": "Create professional coaching business website",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "summary": "Create a hero section with welcoming headline, brief introduction about the coaching services, and a call-to-action button",
+      "acceptanceCriteria": [
+        "Hero section is prominently displayed at the top of the page",
+        "Headline clearly communicates the coaching value proposition",
+        "Call-to-action button is visible and encourages user engagement"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Hero.tsx",
+          "operation": "create",
+          "description": "Create Hero component with welcoming headline, coaching services introduction, and call-to-action button. Wire in the generated hero background image at frontend/public/assets/generated/hero-coaching.dim_1920x1080.png as a background. Use shadcn/ui Button component for the CTA."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Hero component at the top of the main page layout to ensure it displays prominently when users visit the site."
+        }
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "summary": "Build a services section displaying at least 3-4 coaching service offerings with descriptions",
+      "acceptanceCriteria": [
+        "Services are presented in an organized grid or card layout",
+        "Each service includes a title and description",
+        "Section is visually distinct from other page sections"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Services.tsx",
+          "operation": "create",
+          "description": "Create Services component displaying 3-4 coaching service offerings in a grid/card layout. Use shadcn/ui Card components for each service entry, with title and description. Ensure visual distinction from other sections using spacing and styling."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Services component below the Hero section to display the coaching service offerings on the main page."
+        }
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "summary": "Create an about section explaining the coaching approach, methodology, and philosophy",
+      "acceptanceCriteria": [
+        "About section provides clear information about coaching methodology",
+        "Content builds trust and establishes credibility",
+        "Section is easily readable and well-formatted"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/About.tsx",
+          "operation": "create",
+          "description": "Create About component explaining the coaching approach, methodology, and philosophy. Wire in the generated growth icon at frontend/public/assets/generated/growth-icon.dim_256x256.png to visually represent personal growth. Use clear typography and layout for readability and trust-building."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the About component below the Services section to present the coaching methodology and philosophy."
+        }
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "summary": "Implement a contact form with fields for name, email, and message to enable client inquiries",
+      "acceptanceCriteria": [
+        "Contact form includes required fields: name, email, and message",
+        "Form validates user input before submission",
+        "Submitted inquiries are stored in the backend",
+        "User receives confirmation after successful submission"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/ContactForm.tsx",
+          "operation": "create",
+          "description": "Create ContactForm component with name, email, and message fields. Use shadcn/ui Input and Textarea components. Implement frontend validation for required fields and email format. Call backend.submitContactForm on submission and display success/error messages. Show confirmation feedback after successful submission."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the ContactForm component below the About section to enable client inquiries through the contact form."
+        }
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "summary": "Design a testimonials or social proof section to build credibility",
+      "acceptanceCriteria": [
+        "Testimonials section displays client feedback",
+        "Layout accommodates multiple testimonial entries",
+        "Design enhances trustworthiness of the coaching services"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/components/Testimonials.tsx",
+          "operation": "create",
+          "description": "Create Testimonials component displaying client feedback in a layout that accommodates multiple entries. Wire in the generated testimonial background at frontend/public/assets/generated/testimonial-bg.dim_800x600.png to enhance the trust-building design. Use shadcn/ui Card components for individual testimonials."
+        },
+        {
+          "path": "frontend/src/App.tsx",
+          "operation": "modify",
+          "description": "Import and render the Testimonials component between the About and ContactForm sections to showcase social proof and build credibility."
+        }
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "summary": "Apply a warm, professional visual theme with cohesive color palette, modern typography, and inviting layout that conveys trust and approachability for a coaching business",
+      "acceptanceCriteria": [
+        "Color palette uses warm, professional tones that avoid blue and purple",
+        "Typography is readable and conveys professionalism",
+        "Overall design creates a welcoming and trustworthy impression",
+        "Visual style is consistently applied across all sections"
+      ],
+      "file_operations": [
+        {
+          "path": "frontend/src/index.css",
+          "operation": "modify",
+          "description": "Update global CSS to define a warm, professional color palette (avoiding blue and purple). Set modern, readable typography. Apply consistent spacing and layout styles that create a welcoming and trustworthy impression across all sections."
+        },
+        {
+          "path": "frontend/tailwind.config.js",
+          "operation": "modify",
+          "description": "Extend Tailwind theme with custom warm color tokens (e.g., warm oranges, earthy tones, soft neutrals) and professional typography settings. Ensure the color palette avoids blue and purple, and configure spacing/layout utilities for consistent application across components."
+        }
+      ]
+    }
+  ]
+}

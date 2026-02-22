@@ -1,0 +1,116 @@
+{
+  "kind": "build_request",
+  "title": "Create professional coaching business website",
+  "projectName": "Coach Connect",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Create a hero section with welcoming headline, brief introduction about the coaching services, and a call-to-action button",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section is prominently displayed at the top of the page",
+        "Headline clearly communicates the coaching value proposition",
+        "Call-to-action button is visible and encourages user engagement"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Build a services section displaying at least 3-4 coaching service offerings with descriptions",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Services are presented in an organized grid or card layout",
+        "Each service includes a title and description",
+        "Section is visually distinct from other page sections"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Create an about section explaining the coaching approach, methodology, and philosophy",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "About section provides clear information about coaching methodology",
+        "Content builds trust and establishes credibility",
+        "Section is easily readable and well-formatted"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Implement a contact form with fields for name, email, and message to enable client inquiries",
+      "target": "both",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact form includes required fields: name, email, and message",
+        "Form validates user input before submission",
+        "Submitted inquiries are stored in the backend",
+        "User receives confirmation after successful submission"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Design a testimonials or social proof section to build credibility",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Testimonials section displays client feedback",
+        "Layout accommodates multiple testimonial entries",
+        "Design enhances trustworthiness of the coaching services"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Apply a warm, professional visual theme with cohesive color palette, modern typography, and inviting layout that conveys trust and approachability for a coaching business",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-1"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Color palette uses warm, professional tones that avoid blue and purple",
+        "Typography is readable and conveys professionalism",
+        "Overall design creates a welcoming and trustworthy impression",
+        "Visual style is consistently applied across all sections"
+      ]
+    }
+  ],
+  "constraints": [],
+  "nonGoals": [
+    "Online booking or scheduling system",
+    "Payment processing integration",
+    "User authentication or client portal",
+    "Blog or content management features",
+    "Real-time chat functionality"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Professional coaching hero background image showing supportive, uplifting atmosphere (hero-coaching.dim_1920x1080.png)",
+      "Warm, abstract icon representing personal growth and development (growth-icon.dim_256x256.png)",
+      "Trust-building illustration for testimonials section (testimonial-bg.dim_800x600.png)"
+    ],
+    "edits": []
+  }
+}

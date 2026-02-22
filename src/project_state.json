@@ -1,0 +1,82 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Professional coaching business website with services showcase and client connection features",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Professional coaching hero background image showing supportive, uplifting atmosphere (hero-coaching.dim_1920x1080.png)\n- Warm, abstract icon representing personal growth and development (growth-icon.dim_256x256.png)\n- Trust-building illustration for testimonials section (testimonial-bg.dim_800x600.png)",
+  "existing_features": [
+    {
+      "id": "feature-create-a-hero-section-with-welcoming-headline-brief-introduction-about-the-coaching-services-and-a-call-to-action-button",
+      "title": "Create a hero section with welcoming headline, brief introduction about the coaching services, and a call-to-action button",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-build-a-services-section-displaying-at-least-3-4-coaching-service-offerings-with-descriptions",
+      "title": "Build a services section displaying at least 3-4 coaching service offerings with descriptions",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-an-about-section-explaining-the-coaching-approach-methodology-and-philosophy",
+      "title": "Create an about section explaining the coaching approach, methodology, and philosophy",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-implement-a-contact-form-with-fields-for-name-email-and-message-to-enable-client-inquiries",
+      "title": "Implement a contact form with fields for name, email, and message to enable client inquiries",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-design-a-testimonials-or-social-proof-section-to-build-credibility",
+      "title": "Design a testimonials or social proof section to build credibility",
+      "reqIds": [
+        "REQ-5"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-warm-professional-visual-theme-with-cohesive-color-palette-modern-typography-and-inviting-layout-that-conveys-trust-and-approachability-for-a-coaching-business",
+      "title": "Apply a warm, professional visual theme with cohesive color palette, modern typography, and inviting layout that conveys trust and approachability for a coaching business",
+      "reqIds": [
+        "REQ-6"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Create coaching business website with services showcase",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Display coaching approach and methodology information",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Enable client connection and contact features",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "projectName": "Coach Connect",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}
